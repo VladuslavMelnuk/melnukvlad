@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link
-            rel="shortcut icon"
-            href="https://placekitten.com/96/139"
-            type="image/x-icon"
-        />
-        <script
-            src="https://unpkg.com/htmx.org@1.9.10"
-            integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-            crossorigin="anonymous"
-        ></script>
-    </head>
-    <body>
-        <header></header>
-        <main>
-            <section
-                data-hx-trigger="load" 
-                data-hx-swap="outerHTML"
-                data-hx-get="futures.partial.html"
-            ></section>
-        </main>
-    </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figma Land</title>
+  <link rel="stylesheet" href="/index.css"/>
+  <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+</head>
+<body>
+  <header class="header">
+    <nav data-hx-trigger="load" data-hx-get="global.header-nav.partial.html" data-hx-swap="outerHTML"></nav>
+  </header>
+
+  <main class="main">
+    <section data-hx-trigger="load" data-hx-get="index.hero.partial.html" data-hx-swap="outerHTML"></section>
+    <section data-hx-trigger="load" data-hx-get="index.features.partial.html" data-hx-swap="outerHTML"></section>
+    <section data-hx-trigger="load" data-hx-get="index.video.partial.html" data-hx-swap="outerHTML"></section>
+    <section data-hx-trigger="load" data-hx-get="index.cta.partial.html" data-hx-swap="outerHTML"></section>
+    <section data-hx-trigger="load" data-hx-get="index.newsletter.partial.html" data-hx-swap="outerHTML"></section>
+    <section data-hx-trigger="load" data-hx-get="index.partners.partial.html" data-hx-swap="outerHTML"></section>
+    <section data-hx-trigger="load" data-hx-get="index.testimonials.partial.html" data-hx-swap="outerHTML"></section>
+    <section data-hx-trigger="load" data-hx-get="index.pricing.partial.html" data-hx-swap="outerHTML"></section>
+    <section data-hx-trigger="load" data-hx-get="index.contact.partial.html" data-hx-swap="outerHTML"></section>
+  </main>
+
+  <footer data-hx-trigger="load" data-hx-get="global.footer.partial.html" data-hx-swap="outerHTML"></footer>
+</body>
 </html>
