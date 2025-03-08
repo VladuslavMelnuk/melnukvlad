@@ -1,0 +1,56 @@
+.special-offers {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .special-offer {
+    flex: 1;
+    position: relative;
+    min-height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .special-offer--weekly-sales {
+    background: url("../img/weekly-sales.png") center/cover no-repeat, #168f5c;
+  }
+  
+  .special-offer--fresh-fruit {
+    background: url("../img/fresh-fruit.png") center/cover no-repeat, #e76f20;
+  }
+  
+  .special-offer__content {
+    max-width: 60%;
+  }
+  
+  .special-offer__discount,
+  .special-offer__tag {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .special-offer__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .special-offer__link {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .special-offer__link:hover {
+    text-decoration: underline;
+  }
+  

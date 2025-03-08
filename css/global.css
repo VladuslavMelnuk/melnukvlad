@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+  /* Font Settings */
+  --main-font: "Sourse Sans 3", sans-serif;
+  --second-font: "Istok Web", sans-serif;
+  --font-secondary: var(--title-font);
+  font-family: var(--body-font);
+
+  /* Colors */
+    --greentext-color: #a3d100;
+    --main-color: #333333;
+  }
