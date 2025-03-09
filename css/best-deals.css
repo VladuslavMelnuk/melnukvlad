@@ -1,0 +1,82 @@
+.best-deals-section {
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .best-deals-container {
+    width: 1170px;
+    height: 510px;
+    margin: 0 auto;
+    background-image: url(../img/best-dealsbg.webp);
+    padding: 30px;
+    
+  }
+  
+  .best-deals-discount {
+    font-size: 14px;
+    color: #ff7f50;
+    margin-bottom: 10px;
+    font-family: var(--second-font);
+  }
+  
+  .best-deals-title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: var(--second-font);
+  }
+  
+  .best-deals-description {
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: var(--main-font);
+    color: #fff;
+    width: 480px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+  .best-deals-timer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .timer-item {
+    display: grid;
+    text-align: center;
+    height: 160px;
+    width: 160px;
+  }
+  
+  .timer-number {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: var(--main-font);
+  }
+  
+  .timer-label {
+    font-size: 18px;
+    font-family: var(--second-font);
+  }
+  
+  .best-deals-code {
+    font-size: 18px;
+    font-family: var(--second-font);
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .promo-code {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff7f50;
+    font-family: var(--second-font);
+  }

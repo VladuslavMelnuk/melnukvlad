@@ -1,0 +1,93 @@
+h3{
+    font-family: var(--main-font);
+}
+.deals-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .deals-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .deals-section-title {
+    color: #ff7f50;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: var(--main-font);
+  }
+  
+  .deals-main-title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: var(--second-font);
+    color: var(--main-color);
+  }
+  
+  .deals-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+    font-family: var(--main-font);
+    color: var(--main-color);
+  }
+  
+  .deals-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .deals-product {
+    background-color: #fbf4f0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 245px;
+    height: 440px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .deals-product:hover {
+    transform: translateY(-10px);
+  }
+  
+  .deals-product img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .deals-product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .deals-price {
+    font-size: 24px;
+    color: #8bc34a;
+    margin-bottom: 15px;
+    font-family: var(--main-font);
+    font-weight: 700;
+  }
+  
+  .deals-buy-now {
+    background-color: #8bc34a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: var(--second-font);
+  }
+  
+  .deals-buy-now:hover {
+    background-color: #7cb342;
+  }
